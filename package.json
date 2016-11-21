@@ -1,0 +1,25 @@
+{
+  "name": "baggo",
+  "description": "baggo bags, does not unbag",
+  "version": "0.0.0",
+  "homepage": "https://github.com/baggo/baggo",
+  "author": "Jamen Marz (https://git.io/jamen)",
+  "repository": "baggo/baggo",
+  "bugs": {
+    "url": "https://github.com/baggo/baggo/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "baggo",
+    "bag",
+    "immutable",
+    "push"
+  ]
+}
