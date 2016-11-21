@@ -1,15 +1,14 @@
-module.exports = baggo
-
-function baggo () {
-  var infinitelyExpandingVoidOfEverything = []
+module.exports = function () {
+  var baggo = []
 
   function bag (item) {
-    infinitelyExpandingVoidOfEverything.push(item)
+    baggo.push(item)
   }
 
-  bag.get = function (index) {
-    return infinitelyExpandingVoidOfEverything[index]
+  function look (i) {
+    return baggo[i]
   }
 
+  bag.look = look
   return bag
 }
