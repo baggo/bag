@@ -3,11 +3,9 @@
 > baggo bags, cannot unbaggo
 
 ```js
-var createBaggo = require('baggo')
-var baggo = createBaggo()
+var baggo = require('baggo')()
 
 baggo('item')
-
 baggo.look(0) === 'item'
 ```
 
