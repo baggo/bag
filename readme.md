@@ -34,7 +34,9 @@ put in baggo
 **warning:** does not unbaggo
 
 ```js
-baggo('$$$')
+baggo('$')
+
+var index = baggo('$$$') // 1
 ```
 
 ### `baggo.look(i)`
@@ -45,6 +47,17 @@ look in baggo
 baggo('(❍ᴥ❍ʋ)')
 
 baggo.look(0) === '(❍ᴥ❍ʋ)'
+```
+
+### `baggo.find(item)`
+
+find in baggo
+
+```js
+baggo('(ノಠ益ಠ)ノ')
+
+baggo.find('(ノಠ益ಠ)ノ') === 0
+baggo.find(' つ ◕_◕ ༽つ') === -1 // (ಥ_ಥ)
 ```
 
 ## License
