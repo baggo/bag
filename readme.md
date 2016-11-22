@@ -1,6 +1,6 @@
 # baggo
 
-> baggo bags, does not unbag
+> baggo bags, cannot unbaggo
 
 ```js
 var createBaggo = require('baggo')
@@ -31,7 +31,7 @@ var baggo = createBaggo()
 
 put in baggo
 
-**warning:** does not unbaggo
+**warning:** cannot unbaggo
 
 ```js
 baggo('$')
