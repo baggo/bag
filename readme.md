@@ -2,6 +2,15 @@
 
 > baggo bags, does not unbag
 
+```js
+var createBaggo = require('baggo')
+var baggo = createBaggo()
+
+baggo('item')
+
+baggo.look(0) === 'item'
+```
+
 ## Installation
 
 ```sh

@@ -16,10 +16,16 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts": {
+    "test": "tape test.js"
+  },
   "keywords": [
     "baggo",
     "bag",
     "immutable",
     "push"
-  ]
+  ],
+  "devDependencies": {
+    "tape": "^4.6.2"
+  }
 }
