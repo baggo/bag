@@ -17,12 +17,12 @@ $ npm install --save baggo
 
 ## Usage
 
-### `createBaggo()`
+### `makeBaggo()`
 
-create baggo
+make baggo
 
 ```js
-var baggo = createBaggo()
+var baggo = makeBaggo()
 ```
 
 ### `baggo(item)`
