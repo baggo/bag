@@ -3,7 +3,6 @@
   "description": "baggo bags, cannot unbaggo",
   "version": "0.1.1",
   "homepage": "https://github.com/baggo/baggo",
-  "author": "Jamen Marz (https://git.io/jamen)",
   "repository": "baggo/baggo",
   "bugs": {
     "url": "https://github.com/baggo/baggo/issues"
