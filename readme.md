@@ -60,7 +60,7 @@ baggo.find(' つ ◕_◕ ༽つ') === -1 // (ಥ_ಥ)
 
 ## License
 
-MIT © [Jamen Marz](https://git.io/jamen)
+MIT © [Authors](AUTHORS)
 
 ---
 
